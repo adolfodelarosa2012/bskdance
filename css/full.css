@@ -74,6 +74,14 @@ body {
 	background: #cd1843;
 }
 
+.module-eventosEspeciales {
+    padding-top:10px; 
+    padding-bottom:10px; 
+    background: white;
+    margin: 20px 8px;
+    color: #ec145b;
+    font-weight: 700;
+}
 
 .navbar{
     min-height: 100px;
