@@ -259,6 +259,9 @@ font-size: 15px;
     background: #cd1843;
 }
 
+.example-image-link{
+    margin-left: 15px;
+}
 /*RESPONSIVE*/
 
 @media (max-width: 1200px) {
