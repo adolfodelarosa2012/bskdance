@@ -304,3 +304,12 @@ font-size: 15px;
 	}
 }
 
+/*Redefinir*/
+.navbar-brand>img.logo{
+    display:inline; 
+    margin-top: -38px;
+}
+.navbar-brand>img.logo2{
+    display:inline; 
+    margin-top: -25px;
+}
