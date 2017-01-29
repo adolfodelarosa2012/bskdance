@@ -313,3 +313,22 @@ font-size: 15px;
     display:inline; 
     margin-top: -25px;
 }
+
+.flag {
+  width: 32px;
+  height: 32px;
+  background:url(/img/flags.png) no-repeat
+}
+.flag.flag-es {background-position: -32px 0}
+.flag.flag-gb {background-position: 0 -32px}
+.flag.flag-us {background-position: -32px -32px}
+
+.flag16 {
+  width: 16px;
+  height: 16px;
+  background:url(/img/flags16.png) no-repeat
+}
+
+.flag16.flag-es {background-position: -16px 0}
+.flag16.flag-gb {background-position: 0 -16px}
+.flag16.flag-us {background-position: -16px -16px}
