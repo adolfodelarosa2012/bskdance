@@ -71,7 +71,7 @@
                       </ul>
                     </li> 
                     <li>
-                        <a href="#about">
+                        <a href="index.html">
                           <?php if (I18n::get_locale() == 'es_ES'): ?>
                             Escuelas
                           <?php else: ?>
