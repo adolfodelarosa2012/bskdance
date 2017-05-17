@@ -30,6 +30,9 @@ body {
 .paddingtop100{
 	padding-top: 100px;
 }
+.paddingtop30{
+    padding-top: 30px;
+}
 /*.module{
 	padding: 30px 30px 30px 30px;
 	background:#ddd;
