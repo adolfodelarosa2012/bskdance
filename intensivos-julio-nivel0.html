@@ -19,7 +19,7 @@
 
     <!-- Custom CSS -->
     <link href="css/full-slider.css" rel="stylesheet">
-    <link href="css/full.css?v=2.2" rel="stylesheet">
+    <link href="css/full.css?v=3.0" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Salsa" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -43,10 +43,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand salsa hidden-xs" href="index.html">
-                    <img  class="logo"src="image/Logo02min.png" alt="Logotipo" width="60px" height="60px"> BSK Dance <span class="btn btn-danger">CARABANCHEL</span></a>
-                <a class="navbar-brand salsa25 visible-xs" href="index.html">
-                    <img  class="logo2"src="image/Logo02min.png" alt="Logotipo" width="40px" height="40px"> BSK Dance <span class="btn btn-danger tam7">CARABANCHEL</span></a>
+                <a class="navbar-brand salsa hidden-md hidden-sm hidden-xs hidden-xs " href="index.html">
+                    <img  class="logo"src="image/Logo02min.png" alt="Logotipo" width="60px" height="60px"> BSK Dance <span class="btn btn-danger">VISTA ALEGRE</span></a>
+                <a class="navbar-brand salsa35 hidden-lg visible-md hidden-sm hidden-xs" href="index.html">
+                    <img  class="logo"src="image/Logo02min.png" alt="Logotipo" width="45px" height="45px"> BSK Dance <span class="btn btn-danger tam15">VISTA ALEGRE</span></a>
+                <a class="navbar-brand salsa25 hidden-lg hidden-md visible-sm hidden-xs" href="index.html">
+                    <img  class="logo"src="image/Logo02min.png" alt="Logotipo" width="45px" height="45px"> BSK Dance <span class="btn btn-danger tam10">VISTA ALEGRE</span></a>
+                <a class="navbar-brand salsa25 hidden-lg hidden-md hidden-sm visible-xs" href="index.html">
+                    <img  class="logo2"src="image/Logo02min.png" alt="Logotipo" width="40px" height="40px"> BSK Dance <span class="btn btn-danger tam10">VISTA ALEGRE</span></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -60,8 +64,26 @@
                           <span class="visible-sm">Virtual</span>
                         </a>
                     </li>
+                    <!--
                     <li>
-                        <a href="#" class="active">Horarios</a>
+                        <a href="horariosdanceva.html">Horarios</a>
+                    </li>
+                    <li>
+                        <a href="intensivos.html">Intensivos de Junio</a>
+                    </li>
+                  -->
+                    
+                    <li >
+                        <a href="intensivos-julio.html" class="salsa25" title="Intensivos deJulio">
+                            <p class="intensivoJulio hidden-xs">INTENSIVOS <br>JULIO</p>
+                            <p class="intensivoJulio visible-xs">INTENSIVOS JULIO</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="intensivos-julio-nivel0.html" class="salsa25" title="Intensivos deJulio">
+                            <p class="intensivoNivel0 hidden-xs">CLASES DE NIVEL 0 <br>JULIO</p>
+                            <p class="intensivoNivel0 visible-xs">CLASES DE NIVEL 0 JULIO</p>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -70,31 +92,23 @@
         <!-- /.container -->
     </nav>
 
-
-    <div class="container-fluid bg-index">
+    <div class="container-fluid paddingtop70"> 
         <div class="row">
-            <div class="container">
-                <div class="row paddingtop100">
-                    <div class="col-md-6 col-sm-6">
-
-                        <div class="module">
-                            <a href="horariossports.html"><img src="image/boxeo1.jpg" width="339px" heigth="139px" alt="Clases de salsa Barcelona"></a>
-                            <h2><small class="salsa20">Escuela de Boxeo, Kick Boxing, Defensa Personal</small></h2>
-                            <p>&nbsp;</p>
-                            <a href="horariossports.html" class="btn">VER HORARIOS</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <div class="module">
-                            <a href="horariosdance.html"><img src="image/salsa.jpg" width="339px" heigth="139px" alt="Clases de salsa Barcelona"></a>
-                            <h2><small class="salsa20">¡Este mes las clases de baile las daremos en BSK Dance de Vista Alegre!.</small></h2>
-                            <p>&nbsp;</p>
-                            <a href="bskvistaalegre.html" class="btn">VER HORARIOS</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-sm-12 hidden-xs">
+               <!--<img class="img-responsive center-block" src="image/hd4.jpg" alt="Horarios">-->
+               <img width="70%"  alt="Horarios" class="center-block
+              " src="images/jul02.jpg">
+              <div class="salsa20 text-center">
+                <a href="images/jul02.jpg" download="IntensivosJulio.jpg">Descargar Horarios</a>
+              </div>
             </div>
-        </div>
+            <div class="col-xs-12 visible-xs">
+               <img class="img-responsive center-block" src="images/jul02.jpg" alt="Horarios">
+               <div class="salsa20 text-center">
+                <a href="images/jul02.jpg" download="IntensivosJulio.jpg">Descargar Horarios</a>
+              </div>
+            </div>
+        </div><!-- .col-xs-12-->
     </div>
     <!-- Footer -->
     <footer>

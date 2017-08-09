@@ -48,7 +48,7 @@
                 </button>
                 <a class="navbar-brand salsa hidden-xs" href="index.html">
                     <img  class="logo"src="image/Logo02min.png" alt="Logotipo" width="60px" height="60px"> BSK Dance DVDs</a>
-                <a class="navbar-brand salsa35 visible-xs" href="index.html">
+                <a class="navbar-brand salsa25 visible-xs" href="index.html">
                     <img  class="logo2"src="image/Logo02min.png" alt="Logotipo" width="40px" height="40px"> BSK Dance DVDs</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
